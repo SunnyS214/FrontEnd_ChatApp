@@ -31,7 +31,7 @@ const [allUsers, setallUsers] = useState([])
 
 //initail socket
 useEffect(()=>{
-  const newSocket =io("http://localhost:4000")
+  const newSocket =io("http://localhost:3000")
   setsocket(newSocket)
 
 return ()=>{
